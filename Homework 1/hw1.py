@@ -115,6 +115,4 @@ def mutate(s, snp_rate, indel_rate):
 s1 = random_sequence(100)
 s2 = mutate(s1, 0.1, 0.1)
 # running your alignment code
-a = 'GCAGTC'
-b = 'GACTC'
-global_alignment('GACTGC','GCAGTC')
+global_alignment(s1, s2)
