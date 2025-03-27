@@ -26,7 +26,7 @@ def plot_timeseries_data(data):
 Homework 4 problem 2
 What is the approximate duration of each "event" in this data given this plot?
 '''
-approx_duration = 145  # Just eyeballing from the plot
+approx_duration = 150  # Just eyeballing from the plot
 
 
 '''
@@ -201,6 +201,7 @@ plot_MLE(state_sequence)
 
 # Problem 5
 MLE_seq(state_sequence, event_length=approx_duration)  
+''' Most likely sequence: CCTCCCTCGC '''
 
 # Problem 6
 posteriors = HMM_posterior(state_sequence)  # you can also pass df if needed
