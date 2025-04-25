@@ -1,0 +1,19 @@
+graph phylo_tree {
+    node [shape=circle];
+    "Seq_1" [style=filled, fillcolor=lightgreen];
+    "Seq_2" [style=filled, fillcolor=lightgreen];
+    "Seq_3" [style=filled, fillcolor=lightgreen];
+    "Seq_4" [style=filled, fillcolor=lightgreen];
+    "Seq_5" [style=filled, fillcolor=lightgreen];
+    "Seq_6" [style=filled, fillcolor=lightgreen];
+    "Node 1" -- "Seq_1" [label=63.5, weight=63.5];
+    "Node 1" -- "Seq_2" [label=63.5, weight=63.5];
+    "Node 2" -- "Seq_5" [label=78.5, weight=78.5];
+    "Node 2" -- "Seq_6" [label=78.5, weight=78.5];
+    "Node 3" -- "Seq_4" [label=106.25, weight=106.25];
+    "Node 3" -- "Node 2" [label=27.75, weight=27.75];
+    "Node 4" -- "Seq_3" [label=117.75, weight=117.75];
+    "Node 4" -- "Node 1" [label=54.25, weight=54.25];
+    "Node 5" -- "Node 3" [label=74.75, weight=74.75];
+    "Node 5" -- "Node 4" [label=63.25, weight=63.25];
+}
